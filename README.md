@@ -6,27 +6,24 @@
 
 ## Description
 
-This is a super duper *S-P-A-C-E* calculator! This handy calculator will help calculate the user's age on any planet. Also, this calculator will predit how **long** the user will theorically live on the chosen planet...or if the user's time has already expired :[
+This is a super duper *S-P-A-C-E* calculator! This handy calculator will help calculate the user's age on any planet. Also, this calculator will predit how **long** the user will theorically live on the chosen planet...or if the user's time has already expired 
 
 ## Setup/Installation Requirements
+
+* Clone or download from Github Repository 
+https://github.com/christinereina/epicodus-super_calculator
+* Create the webpack bundled /dist directory by running the terminal command "npm install" in the root directory.
+* Open /dist/index.html in your preferred internet browser.
 
 Current Age
 
 | Behavior       | Input         | Output  |
 | ------------- |:-------------:| -----:|
-| age in Mercury years | 1 | Hello! |
-| age in Venus years | 1 | Hello! |
-| age in Mars years | 1 | Hello! |
-| age in Jupiter years | 1 | Hello! |
+| User enters age | 29 |  returns age in Mercury years (120)|
+| User enters age  | 29 | returns age in Venus years (46)|
+| User enters age  | 29 | returns age in Mars years (15) |
+| User enters age  | 29 | returns age in Jupiter years (2) |
 
-Life Expectancy 
-
-| Behavior       | Input         | Output  |
-| ------------- |:-------------:| -----:|
-| age in Mercury years | 1 | Hello! |
-| age in Venus years | 1 | Hello! |
-| age in Mars years | 1 | Hello! |
-| age in Jupiter years | 1 | Hello! |
 
 ## Known Bugs
 
