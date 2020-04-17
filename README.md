@@ -6,11 +6,27 @@
 
 ## Description
 
-
+This is a super duper *S-P-A-C-E* calculator! This handy calculator will help calculate the user's age on any planet. Also, this calculator will predit how **long** the user will theorically live on the chosen planet...or if the user's time has already expired :[
 
 ## Setup/Installation Requirements
 
+Current Age
 
+| Behavior       | Input         | Output  |
+| ------------- |:-------------:| -----:|
+| age in Mercury years | 1 | Hello! |
+| age in Venus years | 1 | Hello! |
+| age in Mars years | 1 | Hello! |
+| age in Jupiter years | 1 | Hello! |
+
+Life Expectancy 
+
+| Behavior       | Input         | Output  |
+| ------------- |:-------------:| -----:|
+| age in Mercury years | 1 | Hello! |
+| age in Venus years | 1 | Hello! |
+| age in Mars years | 1 | Hello! |
+| age in Jupiter years | 1 | Hello! |
 
 ## Known Bugs
 
