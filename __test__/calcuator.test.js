@@ -8,6 +8,6 @@ describe ('User', () => {
 
   test ('this should test mercury age calculation', () => {
     let newUser = new User(29);
-    expect(newUser.mercuryAge()).toEqual(100);
+    expect(newUser.mercuryAge()).toEqual(120);
   });
 });
