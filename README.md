@@ -6,7 +6,7 @@
 
 ## Description
 
-This is a super duper *S-P-A-C-E* calculator! This handy calculator will help calculate the user's age on any planet. Also, this calculator will predit how **long** the user will theorically live on the chosen planet...or if the user's time has already expired 
+This is a super duper *S-P-A-C-E* calculator! This handy calculator will help calculate the user's age on any planet.This calculator can predit how **long** the user will theorically live on the chosen planet depending if you hit that juul or not...and also this fancy calcuator will let you know if the user even has any remaining years left. 
 
 ## Setup/Installation Requirements
 
@@ -21,11 +21,12 @@ Current Age
 
 | Behavior       | Input         | Output  |
 | ------------- |:-------------:| -----:|
-| User enters age | 29 |  returns age in Mercury years (120)|
-| User enters age  | 29 | returns age in Venus years (46)|
-| User enters age  | 29 | returns age in Mars years (15) |
-| User enters age  | 29 | returns age in Jupiter years (2) |
-
+| Calculates users age on Mercury | Age: 29 | 120 |
+| Calculates users age on Venus | Age: 29 | 46|
+| Calculates users age on Mars   | Age: 29 | 15 |
+| Calculates users age on Jupiter | Age: 29 | 2 |
+| Calculates users life expectancy on Mercury if they juul or not  | 29, N | years ___ |
+Calculates users years left on Mercury based on life expectancy | life expectancy - | #
 
 ## Known Bugs
 
