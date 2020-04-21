@@ -21,8 +21,8 @@ describe ('User', () => {
     expect(newUser.marsAge()).toEqual(15);
   });
 
-  test ('this should test Juipter age calculation', () => {
+  test ('this should test Jupiter age calculation', () => {
     let newUser = new User(29);
-    expect(newUser.juipterAge()).toEqual(15);
+    expect(newUser.jupiterAge()).toEqual(15);
   });
 });
