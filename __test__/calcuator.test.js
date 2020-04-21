@@ -33,6 +33,6 @@ describe ('User', () => {
 
   test ('this should test life expectancy calucation on Mercury if they Juul', () => {
     let newUser = new User(29, "yes");
-    expect(newUser.estimatedMercury()).toEqual(50);
+    expect(newUser.estimatedMercury()).toEqual(210);
   });
 });
