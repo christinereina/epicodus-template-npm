@@ -42,7 +42,7 @@ describe ('User', () => {
   });
 
   test ('this should test life expectancy calucation on Mars if they no Juul', () => {
-    let newUser = new User(29, "no");
+    let newUser = new User(29, "yes");
     expect(newUser.estimatedMars()).toEqual(156);
   });
 });
