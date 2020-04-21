@@ -55,4 +55,20 @@ describe ('User', () => {
     let newUser = new User(29, "yes");
     expect(newUser.leftMercury()).toEqual(90);
   });
-});
+
+  test ('this should calculate the final years left on Venus', () => {
+    let newUser = new User(29, "yes");
+    expect(newUser.leftVenus()).toEqual(90);
+  });
+
+//   test ('this should calculate the final years left on Mercury', () => {
+//     let newUser = new User(29, "yes");
+//     expect(newUser.leftMercury()).toEqual(90);
+//   });
+
+//   test ('this should calculate the final years left on Mercury', () => {
+//     let newUser = new User(29, "yes");
+//     expect(newUser.leftMercury()).toEqual(90);
+//   });
+
+// });
