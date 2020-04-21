@@ -10,4 +10,9 @@ describe ('User', () => {
     let newUser = new User(29);
     expect(newUser.mercuryAge()).toEqual(120);
   });
+
+  test ('this should test venus age calculation', () => {
+    let newUser = new User(29);
+    expect(newUser.venusAge()).toEqual(120);
+  });
 });
