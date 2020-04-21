@@ -34,7 +34,7 @@ export class User {
      }
   }
 
-  //the value 100 is a theoretical benchmark of what I'm using for life expectancy
+  //life expectancy | the value 100 is a theoretical benchmark of what I'm using for life expectancy
 
     estimatedMercury() {
       let mercuryJuul = this.juulHabits() + this.mercuryAge();
