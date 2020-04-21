@@ -1,6 +1,7 @@
 export class User {
-  constructor (age) {
+  constructor (age,juul) {
     this.age = age;
+    this.juul = juul;
   }
 
   mercuryAge() {
@@ -17,4 +18,26 @@ export class User {
     let marsYears = Math.floor(this.age/1.88);
     return marsYears;
   }
+
+  jupiterAge() {
+    let jupiterAge = Math.floor(this.age/11.86);
+    return jupiterAge;
+  }
+
+  juulHabits() {
+    let juul = -10;
+    let noJuul = 10;
+    if (this.juul === 'yes') {
+      return juul;
+     } else {
+       return noJuul;
+     }
+  }
+
+  //the value 100 is a theoretical benchmark of what I'm using for life expectancy
+    estimatedMercury() {
+      let mercuryJuul = this.juulHabits() + this.mercuryAge();
+      let  estMercury = mercuryJuul + 100;
+      return estMercury;
+    }
 }
