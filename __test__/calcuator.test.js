@@ -28,6 +28,6 @@ describe ('User', () => {
 
   test ('this should test users Juul habits', () => {
     let newUser = new User(29, "yes");
-    expect(newUser.juulHabits()).toEqual(2);
+    expect(newUser.juulHabits()).toEqual(-10);
   });
 });
