@@ -59,4 +59,12 @@ export class User {
       let  estJupiter = jupiterJuul + 100;
       return estJupiter;
     }
+
+    //years left
+    leftMercury() {
+      let finalMercury = this.estimatedMercury() - this.mercuryAge();
+      return finalMercury;
+    }
+
+
 }
