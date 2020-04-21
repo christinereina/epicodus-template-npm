@@ -35,9 +35,28 @@ export class User {
   }
 
   //the value 100 is a theoretical benchmark of what I'm using for life expectancy
+
     estimatedMercury() {
       let mercuryJuul = this.juulHabits() + this.mercuryAge();
       let  estMercury = mercuryJuul + 100;
       return estMercury;
+    }
+
+    estimatedVenus() {
+      let venusJuul = this.juulHabits() + this.venusAge();
+      let estVenus = venusJuul + 100;
+      return estVenus;
+    }
+
+    estimatedMars() {
+      let marsJuul = this.juulHabits() + this.marsAge();
+      let  estMars = marsJuul + 100;
+      return estMars;
+    }
+
+    estimatedJuipter() {
+      let juipterJuul = this.juulHabits() + this.juipterAge();
+      let  estJuipter = juipterJuul + 100;
+      return estJuipter;
     }
 }
