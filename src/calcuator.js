@@ -54,9 +54,9 @@ export class User {
       return estMars;
     }
 
-    estimatedJuipter() {
-      let juipterJuul = this.juulHabits() + this.juipterAge();
-      let  estJuipter = juipterJuul + 100;
-      return estJuipter;
+    estimatedJupiter() {
+      let jupiterJuul = this.juulHabits() + this.jupiterAge();
+      let  estJupiter = jupiterJuul + 100;
+      return estJupiter;
     }
 }
