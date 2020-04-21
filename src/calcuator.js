@@ -8,9 +8,8 @@ export class User {
     return mercuryYears;
   }
 
-  VenusAge() {
-    let venusYears = Math.floor(this.age/.24);
+  venusAge() {
+    let venusYears = Math.floor(this.age/.62);
     return venusYears;
   }
-
 }
