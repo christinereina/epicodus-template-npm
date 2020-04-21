@@ -35,4 +35,9 @@ describe ('User', () => {
     let newUser = new User(29, "yes");
     expect(newUser.estimatedMercury()).toEqual(210);
   });
+
+  test ('this should test life expectancy calucation on Venus if they no Juul', () => {
+    let newUser = new User(29, "no");
+    expect(newUser.estimatedVenus()).toEqual(210);
+  });
 });
