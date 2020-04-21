@@ -41,8 +41,13 @@ describe ('User', () => {
     expect(newUser.estimatedVenus()).toEqual(156);
   });
 
-  test ('this should test life expectancy calucation on Mars if they no Juul', () => {
+  test ('this should test life expectancy calucation on Mars if they Juul', () => {
     let newUser = new User(29, "yes");
     expect(newUser.estimatedMars()).toEqual(105);
+  });
+
+  test ('this should test life expectancy calucation on Jupiter if they Juul', () => {
+    let newUser = new User(29, "yes");
+    expect(newUser.estimatedJupiter()).toEqual(105);
   });
 });
