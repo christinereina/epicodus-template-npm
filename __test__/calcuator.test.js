@@ -23,6 +23,6 @@ describe ('User', () => {
 
   test ('this should test Jupiter age calculation', () => {
     let newUser = new User(29);
-    expect(newUser.jupiterAge()).toEqual(15);
+    expect(newUser.jupiterAge()).toEqual(2);
   });
 });
