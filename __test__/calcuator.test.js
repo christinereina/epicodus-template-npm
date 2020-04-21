@@ -20,4 +20,9 @@ describe ('User', () => {
     let newUser = new User(29);
     expect(newUser.marsAge()).toEqual(15);
   });
+
+  test ('this should test Juipter age calculation', () => {
+    let newUser = new User(29);
+    expect(newUser.juipterAge()).toEqual(15);
+  });
 });
