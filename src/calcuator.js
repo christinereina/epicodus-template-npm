@@ -66,5 +66,10 @@ export class User {
       return finalMercury;
     }
 
+    leftVenus() {
+      let finalVenus = this.estimatedVenus() - this.venusAge();
+      return finalVenus;
+    }
+
 
 }

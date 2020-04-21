@@ -25,8 +25,8 @@ Current Age
 | Calculates users age on Venus | Age: 29 | 46|
 | Calculates users age on Mars   | Age: 29 | 15 |
 | Calculates users age on Jupiter | Age: 29 | 2 |
-| Calculates users life expectancy on Mercury if they juul or not  | Age: 29, Juul/Y | years 210 |
-Calculates users years left on Mercury based on life expectancy | life expectancy - | #
+| Calculates users life expectancy on Mercury if they juul or not  | Age: 29, Juul/Y | life expectancy: 210 |
+Calculates users years left on Mercury based on life expectancy |Age: 29, life expectancy: 210| 90 years left
 
 ## Known Bugs
 
