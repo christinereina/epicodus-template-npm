@@ -25,4 +25,9 @@ describe ('User', () => {
     let newUser = new User(29);
     expect(newUser.jupiterAge()).toEqual(2);
   });
+
+  test ('this should test users Juul habits', () => {
+    let newUser = new User(29, "yes");
+    expect(newUser.juulHabits()).toEqual(2);
+  });
 });
