@@ -50,4 +50,9 @@ describe ('User', () => {
     let newUser = new User(29, "yes");
     expect(newUser.estimatedJupiter()).toEqual(92);
   });
+
+  test ('this should calculate the final years on Mercury', () => {
+    let newUser = new User(29, "yes");
+    expect(newUser.leftMercury()).toEqual(92);
+  });
 });
