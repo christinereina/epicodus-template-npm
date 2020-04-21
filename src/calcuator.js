@@ -12,4 +12,9 @@ export class User {
     let venusYears = Math.floor(this.age/.62);
     return venusYears;
   }
+
+  marsAge() {
+    let marsYears = Math.floor(this.age/1.88);
+    return marsYears;
+  }
 }
