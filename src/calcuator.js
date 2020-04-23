@@ -60,15 +60,27 @@ export class User {
       return estJupiter;
     }
 
-    //years left
+    //years left on each planet
     leftMercury() {
       let finalMercury = this.estimatedMercury() - this.mercuryAge();
       return finalMercury;
     }
 
+
     leftVenus() {
       let finalVenus = this.estimatedVenus() - this.venusAge();
       return finalVenus;
+    }
+
+    leftMars() {
+      let finalMars = this.estimatedMars() - this.marsAge();
+      return finalMars;
+    }
+
+
+    leftJupiter() {
+      let finalJupiter = this.estimatedJupiter() - this.JupiterAge();
+      return finalJupiter;
     }
 
 

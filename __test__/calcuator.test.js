@@ -57,8 +57,8 @@ describe ('User', () => {
   });
 
   test ('this should calculate the final years left on Venus', () => {
-    let newUser = new User(29, "yes");
-    expect(newUser.leftVenus()).toEqual(90);
+    let newUser = new User(29, "no");
+    expect(newUser.leftVenus()).toEqual(0);
   });
 });
 

@@ -1,4 +1,5 @@
 import 'jquery';
+import './styles.css';
 
 // user logic
 
