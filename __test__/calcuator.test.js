@@ -65,11 +65,10 @@ describe ('User', () => {
     let newUser = new User(29, "yes");
     expect(newUser.leftMars()).toEqual(90);
   });
+
+  test ('this should calculate the final years left on Jupiter', () => {
+    let newUser = new User(29, "yes");
+    expect(newUser.leftJupiter()).toEqual(90);
+  });
 });
 
-//   test ('this should calculate the final years left on Mercury', () => {
-//     let newUser = new User(29, "yes");
-//     expect(newUser.leftMercury()).toEqual(90);
-//   });
-
-// });
